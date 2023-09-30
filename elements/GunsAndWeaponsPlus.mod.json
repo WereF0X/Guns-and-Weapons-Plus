@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Guns And Weapons Plus",
+    "icon": {
+      "value": "CUSTOM:SniperRifle"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "guns_and_weapons_plus:custom/trident",
+  "textures": {
+    "trident": "guns_and_weapons_plus:block/trident",
+    "particle": "guns_and_weapons_plus:item/unnamed_4"
+  }
+}

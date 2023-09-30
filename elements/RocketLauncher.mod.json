@@ -1,0 +1,46 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "unnamed_4",
+    "customModelName": "trident:default",
+    "name": "Rocket Launcher",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:GunsAndWeaponsPlus"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Rocket"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "crossbow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "RocketLauncherRangedItemUsed"
+    },
+    "bulletPower": 0.9,
+    "bulletDamage": 12.0,
+    "bulletKnockback": 4,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Rocket"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "RocketLauncherProjectileHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "RocketLauncherProjectileHitsBlock"
+    }
+  }
+}

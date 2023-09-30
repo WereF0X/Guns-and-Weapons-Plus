@@ -1,0 +1,408 @@
+{
+    "textures": {
+        "trident": "block/3dstuff/trident"
+    },
+    "display": {
+        "firstperson_lefthand": {
+            "rotation": [ 0, 130, 340 ],
+            "translation": [ 0, 2, 0 ],
+            "scale": [ 2, 2, 2 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 320, 20 ],
+            "translation": [ 0, 2, 0 ],
+            "scale": [ 2, 2, 2 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 0, 1, 7 ],
+            "scale": [ 1.55, 1.55, 1.55 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 0, 270, 0 ],
+            "translation": [ 0, 1, 7 ],
+            "scale": [ 1.55, 1.55, 1.55 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "RPG_handle1",
+            "from": [ 2, 7.25, 7.75 ], 
+            "to": [ 3, 7.5, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 0, 4, 1, 4.25 ], "rotation": 180 },
+                "south": { "texture": "#trident", "uv": [ 0, 4, 1, 4.25 ], "rotation": 180 },
+                "west": { "texture": "#trident", "uv": [ 0, 4, 0.5, 4.25 ], "rotation": 180 },
+                "down": { "texture": "#trident", "uv": [ 0, 4, 1, 4.5 ] }
+            }
+        },
+        {
+            "name": "RPG_handle2",
+            "from": [ 3, 5, 7.75 ], 
+            "to": [ 3.75, 6.5, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 8, 8, 8.75, 9.5 ], "rotation": 180 },
+                "east": { "texture": "#trident", "uv": [ 8, 8, 8.5, 9.5 ], "rotation": 180 },
+                "south": { "texture": "#trident", "uv": [ 8, 8, 8.75, 9.5 ], "rotation": 180 },
+                "west": { "texture": "#trident", "uv": [ 8, 8, 8.5, 9.5 ], "rotation": 180 },
+                "down": { "texture": "#trident", "uv": [ 8, 8, 8.75, 8.5 ] }
+            }
+        },
+        {
+            "name": "RPG_handle3",
+            "from": [ 2, 6.625, 7.75 ], 
+            "to": [ 2.125, 7.25, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 0, 4, 0.125, 4.625 ], "rotation": 180 },
+                "east": { "texture": "#trident", "uv": [ 0, 4, 0.5, 4.625 ], "rotation": 180 },
+                "south": { "texture": "#trident", "uv": [ 0, 4, 0.125, 4.625 ], "rotation": 180 },
+                "west": { "texture": "#trident", "uv": [ 0, 4, 0.5, 4.625 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "RPG_handle4",
+            "from": [ 2, 6.5, 7.75 ], 
+            "to": [ 3, 6.625, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 0, 4, 1, 4.125 ], "rotation": 180 },
+                "south": { "texture": "#trident", "uv": [ 0, 4, 1, 4.125 ], "rotation": 180 },
+                "west": { "texture": "#trident", "uv": [ 0, 4, 0.5, 4.125 ], "rotation": 180 },
+                "up": { "texture": "#trident", "uv": [ 0, 4, 1, 4.5 ] },
+                "down": { "texture": "#trident", "uv": [ 0, 4, 1, 4.5 ] }
+            }
+        },
+        {
+            "name": "RPG_handle5",
+            "from": [ 3.375, 4.75, 7.75 ], 
+            "to": [ 3.625, 5.375, 8.25 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 0, 4, 0.25, 4.625 ] },
+                "east": { "texture": "#trident", "uv": [ 0, 4, 0.5, 4.625 ] },
+                "south": { "texture": "#trident", "uv": [ 0, 4, 0.25, 4.625 ] },
+                "west": { "texture": "#trident", "uv": [ 0, 4, 0.5, 4.625 ] },
+                "down": { "texture": "#trident", "uv": [ 0, 4, 0.25, 4.5 ] }
+            }
+        },
+        {
+            "name": "RPG_handle6",
+            "from": [ 3, 6.5, 7.75 ], 
+            "to": [ 4, 7.5, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 0, 4, 1, 5 ], "rotation": 180 },
+                "east": { "texture": "#trident", "uv": [ 0, 4, 0.5, 5 ], "rotation": 180 },
+                "south": { "texture": "#trident", "uv": [ 0, 4, 1, 5 ], "rotation": 180 },
+                "west": { "texture": "#trident", "uv": [ 0, 4, 0.5, 5 ], "rotation": 180 },
+                "down": { "texture": "#trident", "uv": [ 0, 4, 1, 4.5 ] }
+            }
+        },
+        {
+            "name": "RPG_handle7",
+            "from": [ 5.25, 5.625, 7.75 ], 
+            "to": [ 6, 7.375, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 8, 8, 8.75, 9.75 ] },
+                "east": { "texture": "#trident", "uv": [ 8, 8, 8.5, 9.75 ] },
+                "south": { "texture": "#trident", "uv": [ 8, 8, 8.75, 9.75 ] },
+                "west": { "texture": "#trident", "uv": [ 8, 8, 8.5, 9.75 ] },
+                "down": { "texture": "#trident", "uv": [ 8, 8, 8.75, 8.5 ] }
+            }
+        },
+        {
+            "name": "RPG_body1",
+            "from": [ 0, 7.5, 7.5 ], 
+            "to": [ 4, 8.5, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 8, 4, 12, 5 ] },
+                "south": { "texture": "#trident", "uv": [ 8, 4, 12, 5 ] },
+                "up": { "texture": "#trident", "uv": [ 8, 4, 12, 5 ] },
+                "down": { "texture": "#trident", "uv": [ 8, 4, 12, 5 ] }
+            }
+        },
+        {
+            "name": "RPG_body2",
+            "from": [ 4, 7.375, 7.375 ], 
+            "to": [ 6, 8.625, 8.625 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 7, 4, 12, 5.25 ], "rotation": 180 },
+                "south": { "texture": "#trident", "uv": [ 7, 4, 12, 5.25 ] },
+                "west": { "texture": "#trident", "uv": [ 4, 4, 5.25, 5.25 ] },
+                "up": { "texture": "#trident", "uv": [ 7, 4, 12, 5.25 ] },
+                "down": { "texture": "#trident", "uv": [ 7, 4, 12, 5.25 ] }
+            }
+        },
+        {
+            "name": "RPG_body3",
+            "from": [ 6, 7.25, 7.25 ], 
+            "to": [ 10, 8.75, 8.75 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 3, 8, 13, 9.5 ], "rotation": 180 },
+                "east": { "texture": "#trident", "uv": [ 12, 8, 13.5, 9.5 ] },
+                "south": { "texture": "#trident", "uv": [ 3, 8, 13, 9.5 ] },
+                "west": { "texture": "#trident", "uv": [ 0, 8, 1.5, 9.5 ] },
+                "up": { "texture": "#trident", "uv": [ 3, 8, 13, 9.5 ] },
+                "down": { "texture": "#trident", "uv": [ 3, 8, 13, 9.5 ] }
+            }
+        },
+        {
+            "name": "RPG_body4",
+            "from": [ 10, 7.5, 7.5 ], 
+            "to": [ 13.75, 8.5, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 0, 12, 7.75, 13 ], "rotation": 180 },
+                "south": { "texture": "#trident", "uv": [ 0, 12, 7.75, 13 ] },
+                "up": { "texture": "#trident", "uv": [ 0, 12, 7.75, 13 ] },
+                "down": { "texture": "#trident", "uv": [ 0, 12, 7.75, 13 ] }
+            }
+        },
+        {
+            "name": "RPG_body6",
+            "from": [ 15.75, 7, 7 ], 
+            "to": [ 16, 9, 9 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 0, 4, 0.25, 6 ] },
+                "east": { "texture": "#trident", "uv": [ 0, 4, 2, 6 ] },
+                "south": { "texture": "#trident", "uv": [ 0, 4, 0.25, 6 ] },
+                "west": { "texture": "#trident", "uv": [ 0, 4, 2, 6 ] },
+                "up": { "texture": "#trident", "uv": [ 0, 4, 0.25, 6 ] },
+                "down": { "texture": "#trident", "uv": [ 0, 4, 0.25, 6 ] }
+            }
+        },
+        {
+            "name": "RPG_body5",
+            "from": [ 14.75, 7.25, 7.25 ], 
+            "to": [ 15.75, 8.75, 8.75 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 4, 4, 5, 5.5 ] },
+                "south": { "texture": "#trident", "uv": [ 4, 4, 5, 5.5 ] },
+                "west": { "texture": "#trident", "uv": [ 4, 4, 5.5, 5.5 ] },
+                "up": { "texture": "#trident", "uv": [ 4, 4, 5, 5.5 ] },
+                "down": { "texture": "#trident", "uv": [ 4, 4, 5, 5.5 ] }
+            }
+        },
+        {
+            "name": "RPG_body7",
+            "from": [ 13.75, 7.375, 7.375 ], 
+            "to": [ 14.75, 8.625, 8.625 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 4, 4, 5, 5.25 ] },
+                "south": { "texture": "#trident", "uv": [ 4, 4, 5, 5.25 ] },
+                "west": { "texture": "#trident", "uv": [ 4, 4, 5.25, 5.25 ] },
+                "up": { "texture": "#trident", "uv": [ 4, 4, 5, 5.25 ] },
+                "down": { "texture": "#trident", "uv": [ 4, 4, 5, 5.25 ] }
+            }
+        },
+        {
+            "name": "RPG_sight1",
+            "from": [ 0.25, 8.5, 7.75 ], 
+            "to": [ 1.5, 9, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 12, 4, 13.25, 4.5 ] },
+                "east": { "texture": "#trident", "uv": [ 12, 4, 12.5, 4.5 ] },
+                "south": { "texture": "#trident", "uv": [ 12, 4, 13.25, 4.5 ] },
+                "west": { "texture": "#trident", "uv": [ 12, 4, 12.5, 4.5 ] },
+                "up": { "texture": "#trident", "uv": [ 12, 4, 13.25, 4.5 ] }
+            }
+        },
+        {
+            "name": "RPG_sight2",
+            "from": [ 0.25, 9, 7.75 ], 
+            "to": [ 0.5, 9.5, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.5 ] },
+                "east": { "texture": "#trident", "uv": [ 12, 3, 12.5, 7.5 ] },
+                "south": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.5 ] },
+                "west": { "texture": "#trident", "uv": [ 12, 4, 12.5, 4.5 ] },
+                "up": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.5 ] }
+            }
+        },
+        {
+            "name": "RPG_sight3",
+            "from": [ 0.25, 9.5, 7.75 ], 
+            "to": [ 0.5, 9.75, 7.875 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.25 ] },
+                "east": { "texture": "#trident", "uv": [ 12, 0, 12.125, 0.25 ] },
+                "south": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.25 ] },
+                "west": { "texture": "#trident", "uv": [ 12, 4, 12.125, 4.25 ] },
+                "up": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.125 ] }
+            }
+        },
+        {
+            "name": "RPG_sight4",
+            "from": [ 4.75, 8.625, 7.75 ], 
+            "to": [ 6, 9, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 12, 4, 13.25, 4.375 ] },
+                "east": { "texture": "#trident", "uv": [ 12, 4, 12.5, 4.375 ] },
+                "south": { "texture": "#trident", "uv": [ 12, 4, 13.25, 4.375 ] },
+                "west": { "texture": "#trident", "uv": [ 12, 4, 12.5, 4.375 ] },
+                "up": { "texture": "#trident", "uv": [ 12, 4, 13.25, 4.5 ] }
+            }
+        },
+        {
+            "name": "RPG_sight5",
+            "from": [ 5.75, 9, 7.75 ], 
+            "to": [ 6, 9.5, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.5 ] },
+                "east": { "texture": "#trident", "uv": [ 10, 4, 14.5, 4.5 ], "rotation": 90 },
+                "south": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.5 ] },
+                "west": { "texture": "#trident", "uv": [ 12, 4, 12.5, 4.5 ] },
+                "up": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.5 ] }
+            }
+        },
+        {
+            "name": "RPG_sight6",
+            "from": [ 5.75, 9.5, 8.125 ], 
+            "to": [ 6, 10.125, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.625 ] },
+                "east": { "texture": "#trident", "uv": [ 8, 4, 8.125, 4.625 ] },
+                "south": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.625 ] },
+                "west": { "texture": "#trident", "uv": [ 12, 4, 12.125, 4.625 ] }
+            }
+        },
+        {
+            "name": "RPG_sight7",
+            "from": [ 5.75, 9.5, 7.75 ], 
+            "to": [ 6, 10.125, 7.875 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.625 ] },
+                "east": { "texture": "#trident", "uv": [ 8, 4, 8.125, 4.625 ] },
+                "south": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.625 ] },
+                "west": { "texture": "#trident", "uv": [ 12, 4, 12.125, 4.625 ] }
+            }
+        },
+        {
+            "name": "RPG_sight8",
+            "from": [ 5.75, 10.125, 7.75 ], 
+            "to": [ 6, 10.25, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.125 ] },
+                "east": { "texture": "#trident", "uv": [ 8, 4, 8.5, 4.125 ] },
+                "south": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.125 ] },
+                "west": { "texture": "#trident", "uv": [ 12, 4, 12.5, 4.125 ] },
+                "up": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.5 ] },
+                "down": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.5 ] }
+            }
+        },
+        {
+            "name": "RPG_sight9",
+            "from": [ 0.25, 9.5, 8.125 ], 
+            "to": [ 0.5, 9.75, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.25 ] },
+                "east": { "texture": "#trident", "uv": [ 12, 0, 12.125, 0.25 ] },
+                "south": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.25 ] },
+                "west": { "texture": "#trident", "uv": [ 12, 4, 12.125, 4.25 ] },
+                "up": { "texture": "#trident", "uv": [ 12, 4, 12.25, 4.125 ] }
+            }
+        },
+        {
+            "name": "RPG_rocket1",
+            "from": [ -0.5, 7.375, 7.375 ], 
+            "to": [ 0, 8.625, 8.625 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 8, 0, 8.5, 1.25 ] },
+                "east": { "texture": "#trident", "uv": [ 8, 0, 9.25, 1.25 ] },
+                "south": { "texture": "#trident", "uv": [ 8, 0, 8.5, 1.25 ] },
+                "west": { "texture": "#trident", "uv": [ 8, 0, 9.25, 1.25 ] },
+                "up": { "texture": "#trident", "uv": [ 8, 0, 8.5, 1.25 ] },
+                "down": { "texture": "#trident", "uv": [ 8, 0, 8.5, 1.25 ] }
+            }
+        },
+        {
+            "name": "RPG_rocket2",
+            "from": [ -1.5, 7.5, 7.5 ], 
+            "to": [ -0.5, 8.5, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 4, 0, 5, 1 ] },
+                "south": { "texture": "#trident", "uv": [ 4, 0, 5, 1 ] },
+                "up": { "texture": "#trident", "uv": [ 4, 0, 5, 1 ] },
+                "down": { "texture": "#trident", "uv": [ 4, 0, 5, 1 ] }
+            }
+        },
+        {
+            "name": "RPG_rocket3",
+            "from": [ -2.5, 7.375, 7.375 ], 
+            "to": [ -1.5, 8.625, 8.625 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 4, 0, 5, 1.25 ] },
+                "east": { "texture": "#trident", "uv": [ 4, 0, 5.25, 1.25 ] },
+                "south": { "texture": "#trident", "uv": [ 4, 0, 5, 1.25 ] },
+                "up": { "texture": "#trident", "uv": [ 4, 0, 5, 1.25 ] },
+                "down": { "texture": "#trident", "uv": [ 4, 0, 5, 1.25 ] }
+            }
+        },
+        {
+            "name": "RPG_rocket4",
+            "from": [ -3, 7.25, 7.25 ], 
+            "to": [ -2.5, 8.75, 8.75 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 7, 0, 8.5, 1.5 ] },
+                "east": { "texture": "#trident", "uv": [ 4, 0, 5.5, 1.5 ] },
+                "south": { "texture": "#trident", "uv": [ 7, 0, 8.5, 1.5 ], "rotation": 180 },
+                "west": { "texture": "#trident", "uv": [ 8, 0, 9.5, 1.5 ] },
+                "up": { "texture": "#trident", "uv": [ 7, 0, 8.5, 1.5 ], "rotation": 180 },
+                "down": { "texture": "#trident", "uv": [ 7, 0, 8.5, 1.5 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "RPG_rocket5",
+            "from": [ -4, 7.375, 7.375 ], 
+            "to": [ -3, 8.625, 8.625 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 8, 0, 9, 1.25 ] },
+                "south": { "texture": "#trident", "uv": [ 8, 0, 9, 1.25 ] },
+                "west": { "texture": "#trident", "uv": [ 8, 0, 9.25, 1.25 ] },
+                "up": { "texture": "#trident", "uv": [ 9, 0, 10, 1.25 ] },
+                "down": { "texture": "#trident", "uv": [ 8, 0, 9, 1.25 ] }
+            }
+        },
+        {
+            "name": "RPG_rocket6",
+            "from": [ -5, 7.5, 7.5 ], 
+            "to": [ -4, 8.5, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 8, 0, 9, 1 ] },
+                "south": { "texture": "#trident", "uv": [ 8, 0, 9, 1 ] },
+                "west": { "texture": "#trident", "uv": [ 8, 0, 9, 1 ] },
+                "up": { "texture": "#trident", "uv": [ 8, 0, 9, 1 ] },
+                "down": { "texture": "#trident", "uv": [ 8, 0, 9, 1 ] }
+            }
+        },
+        {
+            "name": "RPG_rocket7",
+            "from": [ -5.5, 7.625, 7.625 ], 
+            "to": [ -5, 8.375, 8.375 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 8, 0, 8.5, 0.75 ] },
+                "south": { "texture": "#trident", "uv": [ 8, 0, 8.5, 0.75 ] },
+                "west": { "texture": "#trident", "uv": [ 8, 0, 8.75, 0.75 ] },
+                "up": { "texture": "#trident", "uv": [ 8, 0, 8.5, 0.75 ] },
+                "down": { "texture": "#trident", "uv": [ 8, 0, 8.5, 0.75 ] }
+            }
+        },
+        {
+            "name": "RPG_rocket8",
+            "from": [ -6.5, 7.75, 7.75 ], 
+            "to": [ -5.5, 8.25, 8.25 ], 
+            "faces": {
+                "north": { "texture": "#trident", "uv": [ 1, 0, 3, 0.5 ], "rotation": 180 },
+                "south": { "texture": "#trident", "uv": [ 1, 0, 3, 0.5 ] },
+                "west": { "texture": "#trident", "uv": [ 0, 0, 0.5, 0.5 ] },
+                "up": { "texture": "#trident", "uv": [ 1, 0, 3, 0.5 ] },
+                "down": { "texture": "#trident", "uv": [ 1, 0, 3, 0.5 ] }
+            }
+        }
+    ],
+    "overrides": [
+        {
+            "predicate": {
+                "throwing": 1
+            },
+            "model": "item/trident_throwing"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "crossbow": "crossbow"
+      },
+      "name": "default"
+    },
+    "crossbow_1": {
+      "map": {
+        "crossbow": "crossbow1"
+      },
+      "name": "crossbow_1"
+    }
+  }
+}

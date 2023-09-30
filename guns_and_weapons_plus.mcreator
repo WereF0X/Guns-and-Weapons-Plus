@@ -1,0 +1,202 @@
+{
+  "mod_elements": [
+    {
+      "name": "GunsAndWeaponsPlus",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guns_and_weapons_plus",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SniperBullet",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sniper_bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunsandweaponsplus/item/SniperBulletItem.java",
+          "src/main/resources/assets/guns_and_weapons_plus/models/item/sniper_bullet.json"
+        ]
+      }
+    },
+    {
+      "name": "SniperRifleRangedItemUsed",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sniper_rifle_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunsandweaponsplus/procedures/SniperRifleRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SniperRifle",
+      "type": "rangeditem",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sniper_rifle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunsandweaponsplus/entity/SniperRifleEntity.java",
+          "src/main/resources/assets/guns_and_weapons_plus/models/item/sniper_rifle.json",
+          "src/main/java/net/mcreator/gunsandweaponsplus/item/SniperRifleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FiregemDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firegem_display_overlay_ingame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunsandweaponsplus/procedures/FiregemDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rocket",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunsandweaponsplus/item/RocketItem.java",
+          "src/main/resources/assets/guns_and_weapons_plus/models/item/rocket.json"
+        ]
+      }
+    },
+    {
+      "name": "RocketLauncherRangedItemUsed",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_launcher_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunsandweaponsplus/procedures/RocketLauncherRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RocketLauncher",
+      "type": "rangeditem",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_launcher",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/guns_and_weapons_plus/models/item/rocket_launcher.json",
+          "src/main/java/net/mcreator/gunsandweaponsplus/item/RocketLauncherItem.java",
+          "src/main/java/net/mcreator/gunsandweaponsplus/entity/RocketLauncherEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "RocketLauncherProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_launcher_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunsandweaponsplus/procedures/RocketLauncherProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.guns_and_weapons_plus.sniper_rifle": "Sniper Rifle",
+      "item.guns_and_weapons_plus.rocket": "Rocket",
+      "item_group.guns_and_weapons_plus.guns_and_weapons_plus": "Guns And Weapons Plus",
+      "item.guns_and_weapons_plus.rocket_launcher": "Rocket Launcher",
+      "item.guns_and_weapons_plus.sniper_bullet": "Sniper Bullet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "guns_and_weapons_plus",
+    "modName": "Guns And Weapons Plus",
+    "version": "1.0.0",
+    "author": "feder, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.gunsandweaponsplus",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

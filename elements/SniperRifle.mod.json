@@ -1,0 +1,40 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "unnamed_3",
+    "customModelName": "Normal",
+    "name": "Sniper Rifle",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:GunsAndWeaponsPlus"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:SniperBullet"
+    },
+    "shootConstantly": false,
+    "usageCount": 1600,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "SniperRifleRangedItemUsed"
+    },
+    "bulletPower": 2.5,
+    "bulletDamage": 16.0,
+    "bulletKnockback": 1,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:SniperBullet"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}
