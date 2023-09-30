@@ -10,6 +10,7 @@ credits="https://discord.gg/NAqZFCfxYB"
 displayURL="https://discord.gg/NAqZFCfxYB"
 updateJSONURL="https://discord.gg/NAqZFCfxYB"
 authors="The_WereF0X"
+description="Extension for the mod Guns and Weapons"
 
 [[dependencies.guns_and_weapons_plus]]
     modId="minecraft"
