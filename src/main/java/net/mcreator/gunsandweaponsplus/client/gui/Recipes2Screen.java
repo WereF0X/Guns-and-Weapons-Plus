@@ -6,25 +6,21 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
-import net.mcreator.gunsandweaponsplus.world.inventory.RecipesMenu;
-import net.mcreator.gunsandweaponsplus.network.RecipesButtonMessage;
-import net.mcreator.gunsandweaponsplus.GunsAndWeaponsPlusMod;
+import net.mcreator.gunsandweaponsplus.world.inventory.Recipes2Menu;
 
 import java.util.HashMap;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class RecipesScreen extends AbstractContainerScreen<RecipesMenu> {
-	private final static HashMap<String, Object> guistate = RecipesMenu.guistate;
+public class Recipes2Screen extends AbstractContainerScreen<Recipes2Menu> {
+	private final static HashMap<String, Object> guistate = Recipes2Menu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	Button button_next;
 
-	public RecipesScreen(RecipesMenu container, Inventory inventory, Component text) {
+	public Recipes2Screen(Recipes2Menu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -35,7 +31,7 @@ public class RecipesScreen extends AbstractContainerScreen<RecipesMenu> {
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("guns_and_weapons_plus:textures/screens/recipes.png");
+	private static final ResourceLocation texture = new ResourceLocation("guns_and_weapons_plus:textures/screens/recipes_2.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -51,9 +47,9 @@ public class RecipesScreen extends AbstractContainerScreen<RecipesMenu> {
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("guns_and_weapons_plus:textures/screens/rocket.png"), this.leftPos + 17, this.topPos + 81, 0, 0, 150, 70, 150, 70);
+		guiGraphics.blit(new ResourceLocation("guns_and_weapons_plus:textures/screens/snipperrifle.png"), this.leftPos + 14, this.topPos + 12, 0, 0, 150, 70, 150, 70);
 
-		guiGraphics.blit(new ResourceLocation("guns_and_weapons_plus:textures/screens/sniper.png"), this.leftPos + 16, this.topPos + 16, 0, 0, 150, 70, 150, 70);
+		guiGraphics.blit(new ResourceLocation("guns_and_weapons_plus:textures/screens/rocket.auncherpng.png"), this.leftPos + 14, this.topPos + 82, 0, 0, 150, 70, 150, 70);
 
 		RenderSystem.disableBlend();
 	}
@@ -74,7 +70,7 @@ public class RecipesScreen extends AbstractContainerScreen<RecipesMenu> {
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.guns_and_weapons_plus.recipes.label_recipes"), 68, 5, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.guns_and_weapons_plus.recipes_2.label_recipes"), 69, 5, -12829636, false);
 	}
 
 	@Override
@@ -85,13 +81,5 @@ public class RecipesScreen extends AbstractContainerScreen<RecipesMenu> {
 	@Override
 	public void init() {
 		super.init();
-		button_next = Button.builder(Component.translatable("gui.guns_and_weapons_plus.recipes.button_next"), e -> {
-			if (true) {
-				GunsAndWeaponsPlusMod.PACKET_HANDLER.sendToServer(new RecipesButtonMessage(0, x, y, z));
-				RecipesButtonMessage.handleButtonAction(entity, 0, x, y, z);
-			}
-		}).bounds(this.leftPos + 126, this.topPos + 2, 46, 20).build();
-		guistate.put("button:button_next", button_next);
-		this.addRenderableWidget(button_next);
 	}
 }

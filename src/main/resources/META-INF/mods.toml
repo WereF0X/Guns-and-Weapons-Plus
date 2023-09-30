@@ -8,6 +8,7 @@ version="1.0.0"
 displayName="Guns And Weapons Plus"
 credits="https://discord.gg/NAqZFCfxYB"
 displayURL="https://discord.gg/NAqZFCfxYB"
+updateJSONURL="https://discord.gg/NAqZFCfxYB"
 authors="The_WereF0X"
 
 [[dependencies.guns_and_weapons_plus]]
@@ -19,4 +20,16 @@ authors="The_WereF0X"
 
 
 
+[[dependencies.guns_and_weapons_plus]]
+    modId="Guns_and_Weapons"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
+[[dependencies.guns_and_weapons_plus]]
+    modId="Guns_and_Weapons"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"

@@ -21,40 +21,26 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 194,
+          "x": 195,
           "y": 42
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "rocket.png",
+          "image": "snipperrifle.png",
           "use1Xscale": true,
-          "x": 143,
-          "y": 118
+          "x": 140,
+          "y": 49
         }
       },
       {
         "type": "image",
         "data": {
-          "image": "sniper.png",
+          "image": "rocket.auncherpng.png",
           "use1Xscale": true,
-          "x": 142,
-          "y": 53
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "name": "button_next",
-          "text": "Next",
-          "onClick": {
-            "name": "Next"
-          },
-          "width": 46,
-          "height": 20,
-          "x": 252,
-          "y": 39
+          "x": 140,
+          "y": 119
         }
       }
     ],

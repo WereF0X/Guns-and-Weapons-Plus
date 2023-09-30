@@ -200,6 +200,7 @@
       "registry_name": "recipes",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/gunsandweaponsplus/network/RecipesButtonMessage.java",
           "src/main/java/net/mcreator/gunsandweaponsplus/world/inventory/RecipesMenu.java",
           "src/main/java/net/mcreator/gunsandweaponsplus/client/gui/RecipesScreen.java"
         ]
@@ -252,6 +253,81 @@
           "src/main/java/net/mcreator/gunsandweaponsplus/network/RecipesForGunsAndWeaponsPlusMessage.java"
         ]
       }
+    },
+    {
+      "name": "Sniperrecie",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sniperrecie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/guns_and_weapons_plus/recipes/sniperrecie.json"
+        ]
+      }
+    },
+    {
+      "name": "Rocketlaunchertexture",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocketlaunchertexture",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/guns_and_weapons_plus/recipes/rocketlaunchertexture.json"
+        ]
+      }
+    },
+    {
+      "name": "Recipes2",
+      "type": "gui",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipes_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunsandweaponsplus/world/inventory/Recipes2Menu.java",
+          "src/main/java/net/mcreator/gunsandweaponsplus/client/gui/Recipes2Screen.java"
+        ]
+      }
+    },
+    {
+      "name": "Next",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "next",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gunsandweaponsplus/procedures/NextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -260,11 +336,13 @@
     "en_us": {
       "item.guns_and_weapons_plus.sniper_rifle": "Sniper Rifle",
       "gui.guns_and_weapons_plus.recipes.label_recipes": "Recipes",
+      "gui.guns_and_weapons_plus.recipes_2.label_recipes": "Recipes",
       "item.guns_and_weapons_plus.rocket": "Rocket",
       "item_group.guns_and_weapons_plus.guns_and_weapons_plus": "Guns And Weapons Plus",
       "key.guns_and_weapons_plus.recipes_for_guns_and_weapons_plus": "Recipes(Guns And Weapons Plus)",
       "item.guns_and_weapons_plus.rocket_launcher": "Rocket Launcher",
-      "item.guns_and_weapons_plus.sniper_bullet": "Sniper Bullet"
+      "item.guns_and_weapons_plus.sniper_bullet": "Sniper Bullet",
+      "gui.guns_and_weapons_plus.recipes.button_next": "Next"
     }
   },
   "foldersRoot": {
@@ -280,9 +358,14 @@
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": true,
+    "updateURL": "https://discord.gg/NAqZFCfxYB",
     "requiredMods": [],
-    "dependencies": [],
-    "dependants": [],
+    "dependencies": [
+      "Guns_and_Weapons"
+    ],
+    "dependants": [
+      "Guns_and_Weapons"
+    ],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
     "credits": "https://discord.gg/NAqZFCfxYB",

@@ -1,9 +1,11 @@
 {
   "item.guns_and_weapons_plus.sniper_rifle": "Sniper Rifle",
   "gui.guns_and_weapons_plus.recipes.label_recipes": "Recipes",
+  "gui.guns_and_weapons_plus.recipes_2.label_recipes": "Recipes",
   "item.guns_and_weapons_plus.rocket": "Rocket",
   "item_group.guns_and_weapons_plus.guns_and_weapons_plus": "Guns And Weapons Plus",
   "key.guns_and_weapons_plus.recipes_for_guns_and_weapons_plus": "Recipes(Guns And Weapons Plus)",
   "item.guns_and_weapons_plus.rocket_launcher": "Rocket Launcher",
-  "item.guns_and_weapons_plus.sniper_bullet": "Sniper Bullet"
+  "item.guns_and_weapons_plus.sniper_bullet": "Sniper Bullet",
+  "gui.guns_and_weapons_plus.recipes.button_next": "Next"
 }
