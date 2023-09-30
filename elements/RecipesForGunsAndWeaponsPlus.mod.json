@@ -1,0 +1,12 @@
+{
+  "_fv": 47,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "U",
+    "keyBindingName": "Recipes(Guns And Weapons Plus)",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "RecipesForGunsAndWeaponsPlusOnKeyPressed"
+    }
+  }
+}

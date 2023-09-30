@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="guns_and_weapons_plus"
 version="1.0.0"
 displayName="Guns And Weapons Plus"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="feder, MCreator"
+credits="https://discord.gg/NAqZFCfxYB"
+displayURL="https://discord.gg/NAqZFCfxYB"
+authors="The_WereF0X"
 
 [[dependencies.guns_and_weapons_plus]]
     modId="minecraft"

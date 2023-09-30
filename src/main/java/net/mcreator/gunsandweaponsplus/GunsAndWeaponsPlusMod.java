@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.gunsandweaponsplus.init.GunsAndWeaponsPlusModTabs;
+import net.mcreator.gunsandweaponsplus.init.GunsAndWeaponsPlusModMenus;
 import net.mcreator.gunsandweaponsplus.init.GunsAndWeaponsPlusModItems;
 import net.mcreator.gunsandweaponsplus.init.GunsAndWeaponsPlusModEntities;
 
@@ -56,6 +57,7 @@ public class GunsAndWeaponsPlusMod {
 
 		GunsAndWeaponsPlusModTabs.REGISTRY.register(bus);
 
+		GunsAndWeaponsPlusModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Blocks.TNT"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Rocket"
+    },
+    "name": "rocketrecipe",
+    "namespace": "mod"
+  }
+}
