@@ -20,16 +20,22 @@ description="Extension for the mod Guns and Weapons"
     side="BOTH"
 
 
+[[dependencies.guns_and_weapons_plus]]
+    modId="gun_mod"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 [[dependencies.guns_and_weapons_plus]]
-    modId="Guns_and_Weapons"
+    modId="gun_mod"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.guns_and_weapons_plus]]
-    modId="Guns_and_Weapons"
+    modId="gun_mod"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
